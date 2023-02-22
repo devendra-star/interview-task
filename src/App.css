@@ -1,5 +1,91 @@
+* {
+  overflow-x: hidden;
+
+}
+
 .App {
   text-align: center;
+  width: 100vw;
+  height: max-content;
+
+}
+
+.third_image_wrapper {
+  padding: 90px;
+}
+
+.thirdsimg {
+  width: 100%;
+  height: fit-content;
+}
+
+Link {
+  color: black;
+}
+
+.homeimg {
+  width: 1685px;
+  height: 100%;
+
+}
+
+.heding_third {
+  width: 100%;
+  max-width: 80%;
+  margin: 37px auto 6rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.heding_third p {
+  font-family: Sofia, sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.1;
+  color: rgb(55, 55, 55);
+  max-width: 31ch;
+  overflow-y: hidden;
+}
+
+.heding_third p strong {
+  color: rgb(247, 78, 161);
+  font-weight: 300;
+}
+
+p :last-child {
+  margin-bottom: 0px;
+}
+
+.third_span {
+  position: initial;
+  font-family: Circular, sans-serif;
+  letter-spacing: 0.2rem;
+  color: rgb(247, 78, 161);
+  font-size: 1.5rem;
+}
+
+.p_third {
+  color: rgb(-53, 55, 55);
+  font-size: 1.2rem;
+  font-family: initial;
+  font-weight: 600;
+  width: 53%;
+  align-self: center;
+}
+
+.h2 {
+  color: white;
+  font-weight: bolder;
+}
+
+.h2:hover {
+  color: rgb(247, 78, 161)
+}
+
+.link_fourth {
+  outline: none;
 }
 
 .App-logo {
@@ -32,6 +118,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

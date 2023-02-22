@@ -10,6 +10,21 @@
 
 }
 
+.home_icon_website {
+  background-color: rgba(255, 233, 233, 0.744);
+  color: black;
+  height: 40px;
+  width: 100px;
+  margin-top: 30rem;
+  margin-left: 5rem;
+}
+
+.home_main {
+  background-image: url("./asset/download.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
 .third_image_wrapper {
   padding: 90px;
 }

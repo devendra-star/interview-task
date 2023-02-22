@@ -11,17 +11,19 @@ import Fourth from './Fourth';
 import Fifth from './Fifth';
 import Six from './Six';
 import Seven from './Seven';
-import Footer from './Footer';
+import { color } from '@mui/system';
 const Home = () => (
     <>
-        <Row style={{ overflow: "hidden" }}>
+        <Row className='home_main'>
             <Col span={12}>
-                <img className='homeimg'
-                    src={`${img}?w=164&h=164&fit=crop&auto=format`}
-                    srcSet={`${img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
-                    alt=""
-                    loading="lazy"
-                />
+                <div style={{ display: "flex", marginTop: "5rem", color: "grey" }}>
+                    {footerData.map((item) => {
+                        return (
+                            <img src={item.img}
+                                className="home_icon_website" />
+                        )
+                    })}
+                </div>
             </Col>
             <Col span={12}>
                 <Card
@@ -44,20 +46,9 @@ const Home = () => (
 
                     </AspectRatio>
                 </Card>
+                <figure ><button class="StartButton-sc-1wk0cgj-2 hRgTcm">Start your project</button></figure>
             </Col>
-            <Row style={{ overflow: "hidden" }}>
 
-                <Col span={24}>
-                    {footerData.map((item) => {
-                        return (
-                            <img src={item.img}
-                                style={{
-                                    height: "35px", width: "100px",
-                                }} />
-                        )
-                    })}
-                </Col>
-            </Row>
         </Row>
         <Second />
         <Third />

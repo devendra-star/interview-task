@@ -100,19 +100,19 @@ export const seven = [
 
 export const footerData = [
     {
-        img: 'https://kota.co.uk/static/1c105c0fd70500112d9787740facbfda/961c2/dan-global-logo%402x.webp',
+        img: 'https://kota.co.uk/static/06bd0f13d6cca0d9ed576bd33c1cc699/f4be6/dan_grey%402x.webp',
     },
     {
-        img: 'https://kota.co.uk/static/33f6a75eb3916baabc3e8fb5c4729fe6/2e26c/the-drum-logo.webp',
+        img: 'https://kota.co.uk/static/33f6a75eb3916baabc3e8fb5c4729fe6/1dd59/the-drum-logo.webp',
     },
     {
-        img: 'https://kota.co.uk/static/d7418a88bd49cc8789bca775d50b5625/418b4/glutch%402x.webp',
+        img: 'https://kota.co.uk/static/e48ebdcc0707498a3b3b23b744365f3b/d4b21/Clutch_grey%402x.webp',
     },
     {
-        img: 'https://kota.co.uk/static/8c230afe22eb301df3182649c9820490/b5e75/awwwards-logo%402x.webp',
+        img: 'https://kota.co.uk/static/1970db9df55649146a13601771da8047/2c55e/awward_grey%402x.webp',
     },
     {
-        img: 'https://kota.co.uk/static/19b14c7dc8f2b9c4c73cc9297ad1f85a/0271c/css-design-awards-white.webp',
+        img: 'https://kota.co.uk/static/816573f6ad42e12720a2e55ca7ee3da5/23b76/css-design-awards.webp',
     },
 
 

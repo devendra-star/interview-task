@@ -31,7 +31,7 @@ const Footer = () => {
                         <FooterLink href="#">New York</FooterLink>
 
                     </Column>
-                    <Column style={{ marginLeft: "15rem" }}>
+                    <Column style={{ marginLeft: "15rem", width: "50rem", overflow: "hidden" }}>
                         <Heading style={{ marginLeft: "15rem" }}>FOLLOW</Heading>
                         <Row style={{ display: "flex" }}>
                             <FooterLink href="#">

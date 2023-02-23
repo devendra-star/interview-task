@@ -44,7 +44,7 @@ const Home = () => (
 
                     </AspectRatio>
                 </Card>
-                <figure ><button class="StartButton-sc-1wk0cgj-2 hRgTcm">Start your project</button></figure>
+                <figure ><button class="btn_fix">Start your project</button></figure>
             </Col>
 
         </Row>

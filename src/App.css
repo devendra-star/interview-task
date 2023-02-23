@@ -48,6 +48,21 @@
   padding: 90px;
 }
 
+.btn_fix {
+  position: fixed;
+  background-color: rgb(247, 78, 161);
+  color: rgb(255, 255, 255);
+  font-family: Circular, sans-serif;
+  letter-spacing: 0.1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: 2px solid rgb(247, 78, 161);
+  border-radius: 50px;
+  padding: 25px 35px;
+  font-size: 12px;
+
+}
+
 .thirdsimg {
   width: 100%;
   height: fit-content;

@@ -25,30 +25,32 @@ function Nav() {
     return (
         <Box >
             <AppBar position="static" sx={{ bgcolor: "white", color: "black" }}>
-                <StyledToolbar sx={{ justifyContent: "space-between" }}>
-                    <img style={{ width: 100, minHeight: 100 }} variant="square" src={"https://kota.co.uk/static/f01b5c88da322126c44e3e0400df9baf/25e3f/kotalogo.jpg"} />
-                    <div>
-                        <Button sx={{ mr: 2, mt: 1 }}>
-                            <Link to="#" style={{ textDecoration: "none", color: "black", fontSize: 20 }}>Work
-                            </Link>
-                        </Button>
-                        <Button sx={{ mr: 2, mt: 1 }}>
-                            <Link to="#" style={{ textDecoration: "none", color: "black", fontSize: 20 }}>Contact
-                            </Link>
-                        </Button>
+                <StyledToolbar sx={{ position: "fixed" }}>
+                    <Link to="#">
+                        <img style={{ width: 60, minHeight: 50 }} variant="square" src={"https://kota.co.uk/static/f01b5c88da322126c44e3e0400df9baf/25e3f/kotalogo.jpg"} />
+                    </Link>
 
+
+                    <Link to="#" style={{ textDecoration: "none", color: "black", fontSize: 30, marginLeft: "70rem" }}>Work
+                    </Link>
+                    <Link to="#" style={{ textDecoration: "none", color: "black", fontSize: 30, marginLeft: "1rem" }}>Contact
+                    </Link>
+                    <Link to="#" style={{ color: "black" }}>
                         <IconButton
                             size="large"
                             edge="start"
                             color="inherit"
                             aria-label="open drawer"
-                            sx={{ mr: 2.5 }}
+                            sx={{ ml: "1rem" }}
                         >
                             <MenuIcon />
                         </IconButton>
-                    </div>
+                    </Link>
+
                 </StyledToolbar>
+
             </AppBar>
+
         </Box>
     );
 }

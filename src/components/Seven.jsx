@@ -10,17 +10,16 @@ function Seven() {
     return (
         <div>
             <Typography sx={{ alignSelf: "start", mr: "50rem", fontSize: 50, fontWeight: 'bold' }}>Latest Articles</Typography>
-            <Container maxWidth="lg" sx={{ diosplay: "flex", mt: "2rem", mb: "10rem" }} >
-                <Box
+            <Container maxWidth="lg" sx={{ diosplay: "flex", mt: "2rem", mb: "10rem", }} >
+                <Box className="seven_img"
                     component="ul"
-                    sx={{ display: 'flex', gap: 12, flexWrap: 'wrap', p: 0, m: 0 }}
+                    sx={{ display: 'flex', gap: 12, flexWrap: 'wrap' }}
                 >
                     {seven.map((item) => {
                         return (
                             <Card variant="outlined" sx={{
                                 display: "flex",
                                 width: 320,
-                                '--Card-radius': (theme) => theme.vars.radius.xs,
                             }}>
 
                                 <CardOverflow>
@@ -31,8 +30,8 @@ function Seven() {
                                         />
                                     </AspectRatio>
                                 </CardOverflow>
-                                <div style={{ textAlign: "left" }}><span>{item.head.toUpperCase()} </span>
-                                    <h2 style={{ fontWeight: "bold", fontSize: 20, fontFamily: "sans-serif" }}>{item.text}</h2>
+                                <div style={{ textAlign: "left", marginTop: "1.2rem" }}><span>{item.head.toUpperCase()} </span>
+                                    <h2 style={{ fontWeight: "bold", fontSize: 20, fontFamily: "sans-serif", marginTop: "1.2rem" }}>{item.text}</h2>
                                 </div>
                             </Card>
                         )

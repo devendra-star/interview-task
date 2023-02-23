@@ -11,7 +11,7 @@ function Fourth() {
     return (
         <>
 
-            <Row style={{ overflow: "hidden" }}>
+            <Row className="fourt_container">
                 <Col span={12}>
                     <Card
                         orientation="verticle"

@@ -45,13 +45,14 @@ function Second() {
                         }}
                     >
                         <AspectRatio ratio="1" sx={{ width: "80%" }} >
-                            <Typography variant='h6' fontWeight={"bold"} top={150} >
+                            <h1 className="second_h1">
+                                Making brands a damn site better
+                            </h1>
+                            <p className='second_p'>
                                 Let’s face it, first impressions matter. Your website’s an opportunity to wow your audience, so why waste it with bad design? Because brands win new fans when they’re brave enough to go beyond their creative comfort zone.
 
-                            </Typography>
-                            <Typography variant='h1' fontSize={60} fontWeight={"bold"} marginTop={20}>
-                                Making brands a damn site better
-                            </Typography>
+                            </p>
+
 
 
                         </AspectRatio>

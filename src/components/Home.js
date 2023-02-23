@@ -35,14 +35,12 @@ const Home = () => (
                     }}
                 >
                     <AspectRatio ratio="1" sx={{ width: "80%" }} >
-                        <Typography variant='h6' fontWeight={"bold"} top={150} >
-                            We’re a creative web design agency based in London that crafts beautiful and original websites for brands who refuse to blend in.
-
-                        </Typography>
-                        <Typography variant='h1' fontSize={60} fontWeight={"bold"} marginTop={20}>
+                        <h1 className="home_typo">
                             Rebel against boring
-                        </Typography>
-
+                        </h1>
+                        <h2 className='home_h2' >
+                            We’re a creative web design agency based in London that crafts beautiful and original websites for brands who <span>refuse to blend in.</span>
+                        </h2>
 
                     </AspectRatio>
                 </Card>

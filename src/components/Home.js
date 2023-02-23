@@ -16,7 +16,7 @@ const Home = () => (
     <>
         <Row className='home_main'>
             <Col span={12}>
-                <div style={{ display: "flex", marginTop: "5rem", color: "grey" }}>
+                <div style={{ display: "flex", marginTop: "3rem", color: "grey" }}>
                     {footerData.map((item) => {
                         return (
                             <img src={item.img}

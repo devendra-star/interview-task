@@ -31,9 +31,9 @@ function Nav() {
                     </Link>
 
 
-                    <Link to="#" style={{ textDecoration: "none", color: "black", fontSize: 30, marginLeft: "70rem" }}>Work
+                    <Link to="#" style={{ textDecoration: "none", color: "black", fontWeight: "bold", fontSize: 30, marginLeft: "70rem" }}>Work
                     </Link>
-                    <Link to="#" style={{ textDecoration: "none", color: "black", fontSize: 30, marginLeft: "1rem" }}>Contact
+                    <Link to="#" style={{ textDecoration: "none", color: "black", fontWeight: "bolder", fontSize: 30, marginLeft: "1rem" }}>Contact
                     </Link>
                     <Link to="#" style={{ color: "black" }}>
                         <IconButton

@@ -16,7 +16,7 @@ const Home = () => (
             </div>
             <div className="gpt3__possibility-content">
                 <h1 className="gradient__text"> Rebel against <br /> boring</h1>
-                <p> We’re a creative web design agency based in <br /> London that crafts beautiful and original websites <br /> for brands who <span>refuse to blend in.</span></p>
+                <p> We’re a creative web design agency based in <br /> London that crafts beautiful and original websites <br /> for brands who <span style={{ color: "rgb(247, 78, 161)" }}>refuse to blend in.</span></p>
 
             </div>
 

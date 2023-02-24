@@ -10,6 +10,14 @@
 
 }
 
+
+
+
+.navbar {
+  position: fixed;
+
+}
+
 .home_icon_website {
   background-color: rgb(245, 245, 245);
   color: black;
@@ -24,7 +32,15 @@
   background-image: url("./asset/download.png");
   background-size: 100%;
   background-repeat: no-repeat;
+  transition: background-image 0.5s ease-in-out;
 }
+
+.home_main:hover {
+  background-image: url('./asset/download.png');
+  transition: background-image 0.5s ease-in-out;
+
+}
+
 
 .second_h1 {
   text-align: left;
@@ -50,6 +66,7 @@
 
 .btn_fix {
   position: fixed;
+  justify-content: right;
   background-color: rgb(247, 78, 161);
   color: rgb(255, 255, 255);
   font-family: Circular, sans-serif;
@@ -131,6 +148,10 @@ Link {
 
 p :last-child {
   margin-bottom: 0px;
+}
+
+.third_image_wrapper {
+  position: relative;
 }
 
 .third_span {
@@ -219,4 +240,30 @@ p :last-child {
   to {
     transform: rotate(360deg);
   }
+}
+
+
+@media screen and (max-width:600px) {
+  .home_main {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .second {
+    margin-bottom: 2.6rem;
+  }
+}
+
+
+/*==============MEDIA QUERIES Small Devices*/
+@media screen and (max-width:600px) {
+  .second {
+    grid-template-columns: 1fr;
+    width: var(--container-width-sm);
+  }
+}
+
+.home_main {
+  grid-template-columns: 1fr;
+  width: var(--container-width-sm);
 }

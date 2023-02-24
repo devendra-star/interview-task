@@ -19,16 +19,17 @@ function App() {
         <Nav />
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path="second" element={<Second />} />
-          <Route path="third" element={<Third />} />
-          <Route path="third" element={<Fourth />} />
-          <Route path="third" element={<Fifth />} />
-          <Route path="third" element={<Six />} />
-          <Route path="third" element={<Seven />} />
-          <Route path="third" element={<Third />} />
-          <Route path="third" element={<Third />} />
+          <Route path="/second" element={<Second />} />
+          <Route path="/third" element={<Third />} />
+          <Route path="/third" element={<Fourth />} />
+          <Route path="/third" element={<Fifth />} />
+          <Route path="/third" element={<Six />} />
+          <Route path="/third" element={<Seven />} />
+          <Route path="/third" element={<Third />} />
+          <Route path="/third" element={<Third />} />
 
         </Routes>
+
         <Footer />
       </Router>
     </div>

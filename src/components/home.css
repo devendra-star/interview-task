@@ -1,0 +1,118 @@
+.gpt3__possibility {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+}
+
+.gpt3__possibility-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10rem;
+}
+
+.gpt3__possibility-image img {
+    width: 70%;
+    height: 100%;
+}
+
+.gpt3__possibility-content {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.gpt3__possibility-content h4 {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #71E5FF;
+}
+
+
+.gpt3__possibility-content h1 {
+    overflow: hidden;
+    text-align: start;
+    font-family: var(--font-family);
+    font-weight: 900;
+    font-size: 66px;
+    line-height: 86px;
+    margin: 0rem 0;
+
+}
+
+
+.btn {
+    width: "100%";
+    margin-left: 55rem;
+}
+
+.btn_fix {
+    align-self: flex-end;
+    position: fixed;
+    background-color: rgb(247, 78, 161);
+    color: rgb(255, 255, 255);
+    font-family: Circular, sans-serif;
+    letter-spacing: 0.1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 2px solid rgb(247, 78, 161);
+    border-radius: 50px;
+    padding: 25px 35px;
+    font-size: 12px;
+
+}
+
+.gpt3__possibility-content p {
+    text-align: start;
+    color: var(--color-text);
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 6rem;
+}
+
+@media screen and (max-width: 950px) {
+    .gpt3__possibility {
+        flex-direction: column;
+    }
+
+    .gpt3__possibility-image {
+        margin: 1rem 0;
+    }
+
+    .gpt3__possibility-image img {
+        width: unset;
+        height: unset;
+    }
+
+    .gpt3__possibility-content {
+        margin-top: 2rem;
+        margin-left: 30%;
+
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .gpt3__possibility-image img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .gpt3__possibility-content {
+        margin: 10%;
+    }
+
+
+
+    .btn {
+        position: fixed;
+        width: 0;
+        margin-right: 55rem;
+    }
+}

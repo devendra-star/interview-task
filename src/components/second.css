@@ -60,11 +60,11 @@
         flex-direction: column;
     }
 
-    .second__possibility-image {
+    .second__possibility-video {
         margin: 1rem 0;
     }
 
-    .second__possibility-image img {
+    .second__possibility-video video {
         width: unset;
         height: unset;
     }

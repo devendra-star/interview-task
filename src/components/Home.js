@@ -7,12 +7,19 @@ import Fourth from './Fourth';
 import Fifth from './Fifth';
 import Six from './Six';
 import Seven from './Seven';
+import { footerData } from './data'
+
 
 const Home = () => (
     <>
         <div className="gpt3__possibility section__padding" id="possibility">
             <div className="gpt3__possibility-image">
-                <img src={possibilityImage} alt="possibility" />
+                {footerData.map((item) => {
+                    return (
+                        <img src={item.img}
+                            className="home_icon_website" />
+                    )
+                })}
             </div>
             <div className="gpt3__possibility-content">
                 <h1 className="gradient__text"> Rebel against <br /> boring</h1>

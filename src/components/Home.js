@@ -1,5 +1,7 @@
 import React from 'react';
 import possibilityImage from '../asset/download1.png';
+import img from '../asset/download1.png'
+
 import './home.css';
 import Second from './Second';
 import Third from './Third';
@@ -12,16 +14,16 @@ import { footerData } from './data'
 
 const Home = () => (
     <>
-        <div className="gpt3__possibility section__padding" id="possibility">
-            <div className="gpt3__possibility-image">
+        <div className="home__possibility section__padding" id="possibility">
+            <div className="home__possibility-image">
                 {footerData.map((item) => {
                     return (
                         <img src={item.img}
-                            className="home_icon_website" />
+                            className="innerrimg" />
                     )
                 })}
             </div>
-            <div className="gpt3__possibility-content">
+            <div className="home__possibility-content">
                 <h1 className="gradient__text"> Rebel against <br /> boring</h1>
                 <p> We’re a creative web design agency based in <br /> London that crafts beautiful and original websites <br /> for brands who <span style={{ color: "rgb(247, 78, 161)" }}>refuse to blend in.</span></p>
 
